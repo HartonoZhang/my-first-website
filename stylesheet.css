@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bangers&family=Galada&family=Montserrat+Subrayada:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Montserrat Subrayada", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+h2 {
+    color: white;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(27, 71, 92);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: 30px;
+}
+
+.toggle {
+    color: white;
+    font-size: 20px;
+    float: right;
+    display: none;
+}
+
+.header-right a {
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 0 20px;
+
+}
+
+.header-right a:hover {
+    background-color: rgb(29, 175, 151);
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn {
+    color: white;
+    opacity: 0.8;
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.study {
+    margin-top: 20px;
+    background-color: #279b55;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.top-side {
+    background-image: url(top.jpg);
+    text-align: center;
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+}
+
+#home p{
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
+
+.top-side h1 {
+    opacity: 0.8;
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+.top-side p {
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+.about-profile {
+    padding: 20px;
+}
+
+.about-me {
+    float: left;
+    width: 70%;
+    padding: 30px;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+
+.about-me p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+.profile {
+    text-align: center;
+    padding: 0 20px 10px 20px;
+}
+
+table {
+    text-align: left;
+    font-size: 18px;
+}
+
+table td {
+    padding: 0 30px;
+}
+
+.title-skill {
+    padding-bottom: 20px;
+}
+
+.profile img {
+    height: 320px;
+    width: 213px;
+    background-size: cover;
+}
+
+.lesson-skill {
+    margin-top: 40px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(27, 71, 92);
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+
+.skill-icon img {
+    width: 200px;
+    height: 200px;
+}
+
+.skill {
+    float: left;
+    width: 33.33%;
+}
+
+.skill-icon {
+    position: relative;
+}
+
+.skill-icon h1 {
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+
+.text {
+    width: 90%;
+    margin-top: 20px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.quotes {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #d7ece1;
+}
+
+.quotes-text {
+    border-top: 3px dashed #92a79c;
+    border-bottom: 3px dashed #92a79c;
+    padding: 20px;
+    font-family: 'Galada', cursive;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 25px;
+}   
+
+.quotes img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 140px;
+}
+
+.contact-bg {
+    background-color: #1b96cf79;
+}
+
+.contact {
+    text-align: center;
+    padding: 35px 0;
+    color: white;
+}
+
+.container-contact {
+    width: 50%;
+    background-color: rgb(48, 146, 185);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 6px rgb(27, 126, 151);
+}
+
+form {
+    margin-top: 40px;
+}
+
+.form-control {
+    width: 80%;
+    padding: 20px;  
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+input {
+    line-height: 10px;
+}
+
+.btn-message {
+    margin-top: 15px;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    width: 25%;
+    background-color: #13b453;
+    cursor: pointer;
+    border: none;
+    opacity: 0.9;
+}
+
+.btn-message:hover {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.social-icon {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fa {
+    padding: 20px;   
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+    background: rgb(36, 160, 139);
+    color: white;
+}
+  
+.fa-twitter {
+    background:rgb(36, 160, 139);
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(36, 160, 139);
+    color: white;
+}
+
+.text-footer {
+    color: white;
+    padding: 20px;
+    background-color: rgb(36, 160, 139);
+}
+
+@media all and (max-width: 1000px) {
+    .about-me {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .container-contact{
+        width: 80%;
+    }
+
+    .btn-message {
+        width: 80%;
+    }
+    
+    .skill {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+  
+@media all and (max-width: 670px) {
+    tr {
+        font-size: 16px;
+    }
+
+    .container-contact{
+        width: 90%;
+    }
+
+    .btn-message {
+        width: 100%;
+    }
+
+    .skill {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 678px){
+    header {
+        width: 100%;
+    }
+    
+    .toggle {
+        display: block;
+    }
+
+    .header-right a {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(27, 71, 92);
+        display: none;
+    }
+}

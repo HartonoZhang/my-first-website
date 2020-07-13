@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Website</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <h2>SKYGOD</h2>
+                </div>
+                <div class="toggle">
+                    <i class="fa fa-bars menu" aria-hidden="true"></i>
+                </div>
+                <div class="header-right">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skill">Skill</a>
+                    <a href="#quotes">Quotes</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <script src="jquery.js"></script>
+            </div>
+        </header>
+        <main>
+            <div id="home" class="top-side">
+                <div class="container">
+                    <h1>HEY! I'M HARTONO ZHANG</h1>
+                    <h1>WELLCOME TO MY FIRST WEBSITE</h1>
+                    <p>AYO! Belajar di Dicoding Academy sekarang.</p>
+                    <p>Sudah ribuan siswa yang sukses belajar di Dicoding Academy</p>
+                    <a href="https://www.dicoding.com/academies" target="_blank" class="btn study">Mulai belajar</a>
+                </div>
+            </div>
+            <div class="color-background">
+                <div id="about" class="about-profile">
+                    <div class="container">
+                        <div class="about-me">
+                            <h3>ABOUT</h3>
+                            <p>Hello! Nama saya Hatono Zhang. Seorang mahasiswa tahun ajaran pertama di Universitas Binus.
+                            Saya mulai coding pada 3 bulan yang lalu. Biasanya kalau coding web front-end agak susah dan bingung. 
+                            Tapi dengan adanya kelas ini saya jadi tahu dan mulai mahir dalam pengembangan web front end.
+                            Materi pembelajaran yang diberikan untuk kelas ini sangat bagus untuk permula karena kata kata mudah dipahami dan
+                            sekaligus ada praktek dalam pengembangan web front end. 
+                            </p>
+                            <section>
+                                <table>
+                                    <tr>
+                                        <th>Nama</th>
+                                        <td>Hartono Zhang</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tannggal Lahir</th>
+                                        <td>25 Agustus 2002</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Kuliah</th>
+                                        <td>Universitas Binus</td>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                        <th>Program Studi</th>
+                                        <td>Teknik Informatika</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>hartonobestzx@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th>No Telepon</th>
+                                        <td>+62895363898210</td>
+                                    </tr>
+                                </table>
+                            </section>
+                        </div>
+                    </div>
+                    <aside>
+                        <article class="profile">
+                            <h3>PROFILE</h3>
+                            <img src="foto.jpeg">
+                            <figcaption>Binus College</figcaption>
+                        </article>
+                    </aside>
+                </div>
+            </div>
+            <div class="lesson-skill" id="skill">
+                <div class="container">
+                    <div class="title-skill">
+                        <h2>Skill yang saya miliki untuk membangun website ini!</h2>
+                     </div>
+                    <article class="skill">
+                        <div class="skill-icon">
+                            <h1>HTML</h1>
+                            <img src="icon.jpeg">
+                        </div>
+                        <p class="text">HTML untuk membuat dan menyusun bagian paragraf, heading, link atau tautan, dan blockquote 
+                        untuk halaman web dan aplikasi.
+                        </p>
+                    </article>
+                    <article class="skill">
+                        <div class="skill-icon">
+                            <h1>CSS</h1>
+                            <img src="icon.jpeg">
+                        </div>
+                        <p class="text">CSS biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, 
+                        dan juga memisahkan konten dari tampilan visualnya di situs.
+                        </p>
+                    </article>
+                    <article class="skill">
+                        <div class="skill-icon">
+                            <h1>Javascript</h1>
+                            <img src="icon.jpeg">
+                        </div>
+                        <p class="text">Javascript untuk menyempurnakan tampilan, sistem halaman web, meningkatkan fungsionalitas
+                        website hingga software berbasis web.
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="quotes" id="quotes">
+                <div class="container">
+                    <div class="quotes-text">
+                        <blockquote>"Kita harus berani mencoba sesuatu yang baru.<br>
+                                    Karena kita tidak akan pernah tahu apa yang akan terjadi selanjutnya."</blockquote>
+                        <img src="quotes.jpeg">
+                        <figcaption>Hartono Zhang</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-bg">
+                <div class="contact" id="contact">
+                    <div class="container container-contact">
+                        <div class="contact-title">
+                            <h1>CONTACT ME!</h1>
+                        </div>
+                        <div class="contact-form">
+                            <form id="contact-form">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name"> <br>
+                                <input name="email" type="email" class="form-control" placeholder="Your Email"> <br>
+                                <textarea name="message" type="message" class="form-control" placeholder="Message" rows="6"></textarea><br>
+                                <input type="submit" class="btn-message" value="SEND EMAIL">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social-icon">
+                <div class="container">
+                    <h4>FOLLOW ME!</h4>
+                    <a href="https://www.facebook.com/hartono.zh.9" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://twitter.com/HartonoZh" class="fa fa-twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/hartonozhang_/?hl=en" class="fa fa-instagram" target="_blank"></a>
+                </div>
+            </div>
+            <div class="text-footer">
+                <p>Belajar Dasar Pemrograman Web &#169; 2020, Dicoding Academy</p>
+                <h2>SkyGod</h2>
+            </div>
+        </footer>
+    </body>
+</html>
